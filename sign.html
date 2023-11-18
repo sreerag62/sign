@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <h1>Sign up form</h1>
+    <p>
+        <label for="username">username<input id="username" type="text" onkeyup="validateusername()"></label>
+        <span id="username-error"></span>
+    </p>
+
+
+    <p>
+        <label for="email">email<input id="email" type="text" onkeyup="validateEmail()"></label>
+        <span id="email-error"></span>
+    </p>
+
+    <p>
+        <label for="password">password<input id="password" type="text" onkeyup="validatePassword()"></label>
+        <span id="password-error"></span>
+    </p>
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
